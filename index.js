@@ -9,6 +9,6 @@ app.use(cors())
 const escucha = require('./routes.js')
 escucha(app)
 
-app.listen('9090',function(){
-    console.log('escuchando en el puerto 9090')
+app.listen('8080',function(){
+    console.log('escuchando en el puerto 8080')
 })

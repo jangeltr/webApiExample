@@ -1,16 +1,14 @@
 const express = require('express')
-const Usuarios = require('./users')
 
 function escucha(app){
     const router = express.Router()
-    app.use('/api',router)
+    app.use('/',router)
 
     router.get('/data', async function(req, res, next){
-        console.log('recibio peticion get en /api/data')
+        console.log('recibio peticion get en /data')
         console.log('parametros: ',req.params)
         console.log('query',req.query)
         try{
-            const user = await misUsuarios.insertUsuario(req.body)
             res.status(200).json({
                 'Peticion get ':'Satisfactoria'
             })
@@ -24,10 +22,9 @@ function escucha(app){
         console.log('body: ',req.body)
         console.log('query',req.query)
         try{
-            const user = await misUsuarios.insertUsuario(req.body)
             res.status(200).json({
                 'Peticion post ':'Satisfactoria',
-                'insertado':user
+                'insertado':"user"
             })
         }catch(error){
             console.log(error)
