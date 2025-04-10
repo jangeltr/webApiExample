@@ -1,0 +1,24 @@
+{
+  "name": "webapiexample",
+  "version": "1.0.0",
+  "description": "Esta es una web api de ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jangeltr/webApiExample.git"
+  },
+  "keywords": [
+    "web",
+    "api",
+    "ejemplo"
+  ],
+  "author": "Angel Torres <jangeltr@tlajomulco.tecnm.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangeltr/webApiExample/issues"
+  },
+  "homepage": "https://github.com/jangeltr/webApiExample#readme"
+}
