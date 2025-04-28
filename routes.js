@@ -10,7 +10,8 @@ function escucha(app){
         console.log('query',req.query)
         try{
             res.status(200).json({
-                'Peticion get ':'Satisfactoria'
+                'nombre':'Angel Torres',
+                'email':'jose.tr@tlajomulco.tecnm.mx'
             })
         }catch(error){
             console.log(error)
