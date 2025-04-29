@@ -1,12 +1,12 @@
-const express = require('express')
-const bodyparser = require('body-parser')
-const cors = require('cors')
+import express from 'express'
+import bodyparser from 'body-parser'
+import cors from 'cors'
+import escucha from './routes.mjs'
 
 const app = express()
 app.use(bodyparser.json())
 app.use(cors())
 
-const escucha = require('./routes.js')
 escucha(app)
 
 app.listen('9090',function(){
