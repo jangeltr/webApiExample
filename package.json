@@ -2,7 +2,7 @@
   "name": "webapiexample",
   "version": "1.0.0",
   "description": "Esta es una web api de ejemplo",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

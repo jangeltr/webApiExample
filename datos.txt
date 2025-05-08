@@ -1,1 +1,1 @@
-[{"nombre":"Jose Angel Torres Rangel","email":"jose.tr@tlajomulco.tecnm.mx"},{"nombre":"Jose Angel Torres Rangel","email":"jose.tr@tlajomulco.tecnm.mx","edad":50}]
+[{"nombre":"Jose Angel Torres Rangel","email":"jose.tr@tlajomulco.tecnm.mx"},{"nombre":"Jose Angel Torres Rangel","email":"jose.tr@tlajomulco.tecnm.mx","edad":50},{"nombre":"Juan perez","email":"juan@gmail.com","telefono":"3344556677"},{"nombre":"Pedro Luis","email":"pedroluis@gmail.com","telefono":"7766554433"}]

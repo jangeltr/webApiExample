@@ -18,7 +18,7 @@ function escucha(app){
                 const datos = JSON.parse(data);
                 res.status(200).json(datos);
             }catch(error){
-                res.status(500).json({ error: 'Error al leer el archivo' });
+                res.status(500).json({ error: 'Error en el formato archivo' });
                 console.log(error)
             }
         });
